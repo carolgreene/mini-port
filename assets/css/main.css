@@ -2009,6 +2009,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
+			background-image: url("images/background-unsplash.jpg");
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
@@ -2023,14 +2024,15 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #fff;
+				/*background-image: url("images/background-unsplash.jpg");*/
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #252525;
+					background: #fff;
 				}
 
 /* Nav */
