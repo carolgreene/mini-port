@@ -1630,6 +1630,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			/*max-width: 200px;		added this to make pic smaller but now it's not centered*/	
 		}
 
 		.image.fit {
