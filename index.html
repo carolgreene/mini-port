@@ -115,10 +115,10 @@
 						<!--<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>-->
 					</header>
 
-					<!--Need to adjust action in form to make work. Looking into Formspree.  https://formspree.io/f/xzbygrww-->
+					<!--had to remove enctype="text/plain" which was after method="post" to get formspree to work-->
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="mailto:carolgreene3@gmail.com" method="post" enctype="text/plain">
+							<form method="post" action="https://formspree.io/f/xgeryqra"    method="post"> 
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name" />
